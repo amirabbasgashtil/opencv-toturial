@@ -1,2 +1,2 @@
 ﻿# opencv-toturial
-finding lane lines using open-cv library
+finding lane lines using openCv library
