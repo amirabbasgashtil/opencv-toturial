@@ -14,6 +14,7 @@ def display_lines(img, lines):
     line_img = np.zeros_like(img)
     if lines is not None:
         for line in lines:
+            # print(line.shape)
             x1, y1, x2, y2 = line.reshape(4)
             cv2.line(line_img, (x1, y1), (x2, y2), (255, 0, 0), 10)
     return line_img
